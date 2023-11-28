@@ -29,5 +29,23 @@ document.addEventListener('DOMContentLoaded', function () {
       
     //   changeColorToCoffee();
     });
+    square1.addEventListener('mouseout', function () {
+        square3.style.backgroundColor = '#E6E6FA';
+        square1.style.backgroundColor = '#E6E6FA';
+        square2.style.backgroundColor = '#E6E6FA';
+      
+      });
+      square2.addEventListener('mouseout', function () {
+        square3.style.backgroundColor = '#E6E6FA';
+        square1.style.backgroundColor = '#E6E6FA';
+        square2.style.backgroundColor = '#E6E6FA';
+      
+      });
+      square2.addEventListener('mouseout', function () {
+        square3.style.backgroundColor = '#E6E6FA';
+        square1.style.backgroundColor = '#E6E6FA';
+        square2.style.backgroundColor = '#E6E6FA';
+      
+      });
   });
   
