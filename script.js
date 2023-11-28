@@ -1,4 +1,3 @@
-//your JS code here. If required.
 document.addEventListener('DOMContentLoaded', function () {
   // Get references to the three squares
   const square1 = document.getElementById('square1');
@@ -7,9 +6,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Function to change the color of all squares to Coffee (#6F4E37)
   function changeColorToCoffee() {
-    // square1.style.backgroundColor = '#6F4E37';
-    // square2.style.backgroundColor = '#6F4E37';
-    // square3.style.backgroundColor = '#6F4E37';
+    square1.style.backgroundColor = '#E6E6FA';
+    square2.style.backgroundColor = '#6F4E37';
+    square3.style.backgroundColor = '#6F4E37';
   }
 
   // Add mouseover event listener to each square
